@@ -7,33 +7,34 @@
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <!-- HEADER -->
   <nav class="navbar navbar-expand bg-body-tertiary fixed">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="img/logo2.png" alt="Bootstrap" width="60" height="60">
+        <img src="../assets/img/logo2.png" alt="PumasDC" width="60" height="60">
       </a>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <b><a class="nav-link active" aria-current="page" href="#">Home</a></b>
-          <b><a class="nav-link" href="#">Features</a></b>
-          <b><a class="nav-link" href="#">Pricing</a></b>
-          <b><a class="nav-link disabled" aria-disabled="true">Disabled</a></b>
+          <b><a class="nav-link active" aria-current="page" href="#">INICIO</a></b>
+          <b><a class="nav-link" href="#">NOSOTROS</a></b>
+          <b><a class="nav-link" href="#">VICTORIAS</a></b>
+          <b><a class="nav-link" href="#">UNETE</a></b>
+          <b><a class="nav-link" href="#">CONCTACTANOS</a></b>
         </div>
       </div>
     </div>
   </nav>
 
   <!-- PORTADA -->
-  <section class="container-fluid">
+  <section class="container-fluid mb-5">
     <img src="http://pumasdc.com.co/SiteWeb/img/Portada2.png" class="img-fluid" alt="...">
   </section>
 
   <!-- NOSOTROS -->
-  <section class="container">
+  <section class="container my-5">
     <h1 class="text-center text-bold text-danger">NOSOTROS</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque quas tenetur voluptatum repellendus, 
@@ -49,18 +50,55 @@
       blanditiis ea reiciendis? Sit, excepturi necessitatibus?
     </p>
   </section>
-  <section class="container">
+  <section class="container my-5">
     <section class="container row">
       <aside class="col-6 text-center ">
         <h1 class="text-danger">VICTORIAS</h1>
         <P>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero fugit neque commodi, quidem magni exercitationem in sapiente laborum aspernatur at unde officia quisquam accusamus eaque veniam quae quis hic quaerat error reiciendis? Repellendus, eveniet totam maxime ipsam quas veniam vero magnam aperiam eligendi commodi vel? Voluptate eligendi aspernatur, animi tenetur repellat fuga blanditiis recusandae voluptatem fugit atque nesciunt, cum ipsam porro dolor velit consequatur distinctio praesentium laudantium nam sapiente? Vel voluptatibus eveniet sed, similique maxime fuga nam hic autem impedit quis eaque ea sit pariatur, cupiditate ipsum explicabo? Recusandae temporibus iure error a quos architecto illo nisi praesentium laborum mollitia.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero fugit neque commodi, quidem magni exercitationem 
+          in sapiente laborum aspernatur at unde officia quisquam accusamus eaque veniam quae quis hic quaerat error 
+          reiciendis? Repellendus, eveniet totam maxime ipsam quas veniam vero magnam aperiam eligendi commodi vel? 
+          Voluptate eligendi aspernatur, animi tenetur repellat fuga blanditiis recusandae voluptatem fugit atque nesciunt, 
+          cum ipsam porro dolor velit consequatur distinctio praesentium laudantium nam sapiente? Vel voluptatibus eveniet 
+          sed, similique maxime fuga nam hic autem impedit quis eaque ea sit pariatur, cupiditate ipsum explicabo? Recusandae 
+          temporibus iure error a quos architecto illo nisi praesentium laborum mollitia.
         </P>
       </aside>
       <aside class="col-6">
         <img src="http://pumasdc.com.co/SiteWeb/img/victoria2.jpg" class="img-fluid" alt="...">
       </aside>
     </section>
+  </section>
+
+  <!-- UNITE -->
+  <section class="container-fluid bg-danger">
+    <div class="container text-center text-light">
+      <article class="row">
+        <!-- PRESENTACION LATERIAL IZQUIERDA -->
+        <aside class="col-md-6 d-flex flex-column justify-content-center align-content-center">
+          <h2>¿QUIERES SABER MAS?</h2>
+          <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit asperiores minima accusamus dolores voluptatum dicta, itaque provident id cumque magnam deleniti aspernatur et consequuntur quia, blanditiis vel nihil adipisci nobis. Possimus voluptate recusandae corrupti non officia sequi earum. Ab a aspernatur veniam aperiam. Ducimus aliquid magni quia fugit aspernatur, modi ab, repellat totam cupiditate, temporibus assumenda adipisci atque! Sunt blanditiis fugiat perferendis odio corporis assumenda. A ducimus, doloremque alias accusamus saepe veniam sed fuga minus porro quaerat dolor. Et facere id, voluptate velit officiis perspiciatis molestias aut quas quod perferendis reprehenderit saepe ducimus laborum eveniet libero fugiat? Exercitationem, itaque soluta!</P>
+        </aside>
+        <!-- FORMULARIO LATERAL DERECHO-->
+        <aside class="col-md-6 my-5">
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Nombre completo">
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Telefono">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" placeholder="Mensaje" rows="3"></textarea>
+          </div>
+          <div class="mb-3">
+            <a href="" class="btn btn-light float-start">Enviar</a>
+          </div>
+        </aside>
+      </article>
+    </div>
   </section>
 
   <!-- BOOTSTRAP JS -->
